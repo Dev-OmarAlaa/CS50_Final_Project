@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأساسيات | Programmers Guide</title>
+    <meta name="description" content="ابدأ رحلتك في البرمجة مع CS50 من جامعة هارفرد. الأساسيات اللي هتبنيلك عقلية المبرمج.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Programmers Guide</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="basics.html" class="active">الأساسيات</a></li>
+                <li><a href="market.html">سوق العمل</a></li>
+                <li><a href="roadmaps.html">خرائط الطريق</a></li>
+                <li><a href="tips.html">نصائح مهمة</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>المرحلة الأولى: الأساسيات</h1>
+            <p>قبل ما تدخل أي مجال أو تتعلم أي فريموورك، لازم تبني أساس قوي. هنا هتتعلم إزاي تفكر كـ مبرمج.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="info-box tip">
+                <h4>💡 ليه الأساسيات مهمة؟</h4>
+                <p>
+                    معظم الناس بتبدأ مباشرة بـ HTML أو Python أو أي لغة، وبعدين بتلاقي نفسها مش فاهمة ليه الكود بيشتغل بالطريقة دي.
+                    CS50 بيبنيلك الفهم العميق: إزاي الكمبيوتر بيشتغل، إيه هي الخوارزميات، إزاي تدير الذاكرة، وإزاي تحل المشاكل بطريقة منظمة.
+                </p>
+            </div>
+
+            <div class="section-header" style="text-align: right; margin-top: 40px;">
+                <h2>كورس CS50 — جامعة هارفرد</h2>
+                <p>أفضل مقدمة لعلوم الحاسب في العالم، ومتاحة مجانًا</p>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Arabic Version -->
+                <div class="course-card">
+                    <span class="course-lang ar">عربي</span>
+                    <h3>CS50 بالعربي — عبدالرحمن جمال</h3>
+                    <p class="instructor">القناة: عبدالرحمن جمال</p>
+                    <p>
+                        شرح كامل ومبسط لكورس CS50 باللغة العربية. من أشهر الشروحات العربية وأكثرها مشاهدة.
+                        بيغطي كل الأسابيع بطريقة واضحة ومناسبة للمبتدئين تمامًا.
+                    </p>
+                    <a href="https://www.youtube.com/playlist?list=PLknwEmKsW8OvMsFbU9zo8oJCprAsgc4LO" target="_blank" rel="noopener" class="btn btn-primary">
+                        ابدأ الشرح بالعربي
+                    </a>
+                </div>
+
+                <!-- English Version -->
+                <div class="course-card">
+                    <span class="course-lang en">English</span>
+                    <h3>CS50x — Harvard University</h3>
+                    <p class="instructor">Instructor: David J. Malan</p>
+                    <p>
+                        النسخة الرسمية من جامعة هارفرد. تقدر تتابعها مجانًا على الموقع الرسمي أو edX،
+                        وتعمل الـ Problem Sets وتاخد شهادة لو حابب.
+                    </p>
+                    <a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener" class="btn btn-primary">
+                        ابدأ النسخة الرسمية
+                    </a>
+                </div>
+            </div>
+
+            <div style="margin-top: 50px;">
+                <h2 style="margin-bottom: 20px;">إيه اللي هتتعلمه في CS50؟</h2>
+                <div class="skills-list">
+                    <span class="skill-tag">التفكير الخوارزمي</span>
+                    <span class="skill-tag">Scratch</span>
+                    <span class="skill-tag">لغة C</span>
+                    <span class="skill-tag">Arrays & Memory</span>
+                    <span class="skill-tag">Algorithms</span>
+                    <span class="skill-tag">Data Structures</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">HTML & CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">Problem Solving</span>
+                </div>
+            </div>
+
+            <div class="info-box warning" style="margin-top: 40px;">
+                <h4>⚠️ نصيحة مهمة</h4>
+                <p>
+                    متستعجلش. اعمل الـ Problem Sets حتى لو صعبة. الهدف مش إنك تخلص الكورس بسرعة، 
+                    الهدف إنك تبني عقلية حل المشاكل. لو اتعورت في حاجة، ارجع للفيديو أو اسأل في الجروبات.
+                </p>
+            </div>
+
+            <div class="info-box tip" style="margin-top: 20px;">
+                <h4>✅ بعد ما تخلص CS50</h4>
+                <p>
+                    هتكون فاهم أساسيات البرمجة كويس جدًا، وهتقدر تختار مسارك بثقة.
+                    روح على صفحة <a href="market.html" style="color: var(--primary); font-weight: 600;">سوق العمل</a> 
+                    عشان تشوف المجالات المطلوبة، وبعدين اختار 
+                    <a href="roadmaps.html" style="color: var(--primary); font-weight: 600;">خريطة الطريق</a> المناسبة ليك.
+                </p>
+            </div>
+
+            <div class="center-btn" style="margin-top: 50px;">
+                <a href="market.html" class="btn btn-primary btn-lg">الخطوة التالية: سوق العمل ←</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&lt;/&gt;</span>
+                        <span>Programmers Guide</span>
+                    </a>
+                    <p>دليلك الواضح لتعلم البرمجة بدون تشتيت.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="basics.html">الأساسيات</a></li>
+                        <li><a href="market.html">سوق العمل</a></li>
+                        <li><a href="roadmaps.html">خرائط الطريق</a></li>
+                        <li><a href="tips.html">نصائح مهمة</a></li>
+                    </ul>
+                </div>
+                <div class="footer-note">
+                    <h4>ملاحظة</h4>
+                    <p>الموقع بيتحدث باستمرار حسب تغيرات سوق العمل وأفضل الكورسات.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Programmers Guide — صُنع بحب للمبتدئين العرب</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

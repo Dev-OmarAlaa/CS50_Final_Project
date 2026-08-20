@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Guide | دليلك لتعلم البرمجة</title>
+    <meta name="description" content="دليل واضح ومنظم للمبتدئين في البرمجة. ابدأ من الأساسيات مع CS50 ثم اختر مسارك بناءً على سوق العمل.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Programmers Guide</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="basics.html">الأساسيات</a></li>
+                <li><a href="market.html">سوق العمل</a></li>
+                <li><a href="roadmaps.html">خرائط الطريق</a></li>
+                <li><a href="tips.html">نصائح مهمة</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">دليلك من الصفر للاحتراف</div>
+            <h1>توقف عن التشتت.<br>ابدأ بوضوح.</h1>
+            <p class="hero-desc">
+                موقع واحد يجمع لك الطريق الصحيح لتعلم البرمجة: 
+                أساسيات قوية ← فهم سوق العمل ← اختيار مسار واضح ← كورسات مختارة بعناية (عربي + إنجليزي).
+            </p>
+            <div class="hero-btns">
+                <a href="basics.html" class="btn btn-primary">ابدأ بالأساسيات</a>
+                <a href="roadmaps.html" class="btn btn-secondary">شوف خرائط الطريق</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- How it works -->
+    <section class="section how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>كيف يعمل الدليل؟</h2>
+                <p>ثلاث خطوات بسيطة، بدون تشتيت</p>
+            </div>
+            <div class="steps">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>الأساسيات أولاً</h3>
+                    <p>ابدأ بـ CS50 من جامعة هارفرد. هتفهم إزاي الكمبيوتر بيشتغل، الخوارزميات، الداتا ستراكشر، والـ Problem Solving.</p>
+                    <a href="basics.html" class="step-link">ابدأ الآن ←</a>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>افهم السوق</h3>
+                    <p>شوف إيه أكتر المجالات واللغات المطلوبة في السوق العربي والعالمي، عشان تختار بذكاء مش بالموضة.</p>
+                    <a href="market.html" class="step-link">شوف السوق ←</a>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>اختر مسارك</h3>
+                    <p>لكل مجال خريطة طريق واضحة: كورس عربي واحد قوي + كورس إنجليزي واحد، عشان متضيعش بين الـ 100 كورس.</p>
+                    <a href="roadmaps.html" class="step-link">اختر مسارك ←</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why this guide -->
+    <section class="section why-section">
+        <div class="container">
+            <div class="why-grid">
+                <div class="why-content">
+                    <h2>ليه الدليل ده مختلف؟</h2>
+                    <ul class="why-list">
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>أقل تشتيت ممكن</strong>
+                                <p>مش هنحطلك 20 كورس. هنحطلك أفضل كورس عربي + أفضل كورس إنجليزي لكل مرحلة.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>أساسيات قوية أولاً</strong>
+                                <p>CS50 مش كورس عادي، ده بيبنيلك عقلية المبرمج قبل ما تدخل في أي فريموورك.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>مبني على سوق العمل الحقيقي</strong>
+                                <p>المسارات مبنية على الطلب الفعلي في السوق العربي والعالمي مش على التريندات بس.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>عربي + إنجليزي</strong>
+                                <p>تقدر تتعلم بالعربي لو حابب، أو بالإنجليزي لو عايز مصادر أقوى وأحدث.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="why-card">
+                    <div class="quote">
+                        <p>"أكبر مشكلة بتواجه المبتدئين مش صعوبة البرمجة، هي التشتت بين مئات الكورسات والمسارات."</p>
+                        <span>— فلسفة الموقع</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Paths Preview -->
+    <section class="section paths-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>أشهر المسارات</h2>
+                <p>اختار المجال اللي يناسبك بعد ما تخلص الأساسيات</p>
+            </div>
+            <div class="paths-grid">
+                <a href="roadmaps.html#web" class="path-card">
+                    <div class="path-icon">🌐</div>
+                    <h3>تطوير الويب</h3>
+                    <p>Frontend • Backend • Full-Stack</p>
+                    <span class="path-tag">الأكثر شيوعًا</span>
+                </a>
+                <a href="roadmaps.html#ai" class="path-card">
+                    <div class="path-icon">🤖</div>
+                    <h3>الذكاء الاصطناعي</h3>
+                    <p>Machine Learning • Data Science</p>
+                    <span class="path-tag hot">الأعلى طلبًا</span>
+                </a>
+                <a href="roadmaps.html#mobile" class="path-card">
+                    <div class="path-icon">📱</div>
+                    <h3>تطبيقات الموبايل</h3>
+                    <p>Flutter • React Native</p>
+                    <span class="path-tag">مطلوب جدًا</span>
+                </a>
+                <a href="roadmaps.html#security" class="path-card">
+                    <div class="path-icon">🔒</div>
+                    <h3>الأمن السيبراني</h3>
+                    <p>Ethical Hacking • Security</p>
+                    <span class="path-tag">نمو سريع</span>
+                </a>
+            </div>
+            <div class="center-btn">
+                <a href="roadmaps.html" class="btn btn-primary">عرض كل المسارات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>جاهز تبدأ رحلتك؟</h2>
+                <p>ابدأ دلوقتي بالأساسيات، ومتضيعش وقت في البحث عن أفضل كورس.</p>
+                <a href="basics.html" class="btn btn-primary btn-lg">ابدأ بـ CS50 الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&lt;/&gt;</span>
+                        <span>Programmers Guide</span>
+                    </a>
+                    <p>دليلك الواضح لتعلم البرمجة بدون تشتيت.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="basics.html">الأساسيات</a></li>
+                        <li><a href="market.html">سوق العمل</a></li>
+                        <li><a href="roadmaps.html">خرائط الطريق</a></li>
+                        <li><a href="tips.html">نصائح مهمة</a></li>
+                    </ul>
+                </div>
+                <div class="footer-note">
+                    <h4>ملاحظة</h4>
+                    <p>الموقع بيتحدث باستمرار حسب تغيرات سوق العمل وأفضل الكورسات.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Programmers Guide — صُنع بحب للمبتدئين العرب</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرائط الطريق | Programmers Guide</title>
+    <meta name="description" content="خرائط طريق واضحة لكل مجال برمجي: كورس عربي واحد + كورس إنجليزي واحد لتقليل التشتت.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>Programmers Guide</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="basics.html">الأساسيات</a></li>
+                <li><a href="market.html">سوق العمل</a></li>
+                <li><a href="roadmaps.html" class="active">خرائط الطريق</a></li>
+                <li><a href="tips.html">نصائح مهمة</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>خرائط الطريق</h1>
+            <p>لكل مجال: كورس عربي قوي + كورس إنجليزي قوي. مش أكتر عشان متتشتتش.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="info-box tip">
+                <h4>📌 قاعدة الموقع</h4>
+                <p>
+                    بنحط في كل مسار <strong>أفضل كورس عربي</strong> (حسب الجودة والمشاهدات) 
+                    و<strong>أفضل كورس إنجليزي</strong>. لو لقيت حاجة أفضل، قولي ونحدث.
+                </p>
+            </div>
+
+            <!-- Web Development -->
+            <div class="roadmap-section" id="web" style="margin-top: 50px;">
+                <h2>🌐 تطوير الويب (Web Development)</h2>
+                <p class="desc">الأكثر شيوعًا وفرص عمل. تقدر تبدأ Frontend أو Backend أو Full-Stack.</p>
+                
+                <div class="skills-list">
+                    <span class="skill-tag">HTML & CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+
+                <h3 style="margin-bottom: 16px; font-size: 1.15rem;">Frontend</h3>
+                <div class="courses-grid" style="margin-bottom: 32px;">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>Elzero Web School</h3>
+                        <p class="instructor">أسامة الزيرو</p>
+                        <p>من أقوى وأشهر الشروحات العربية لـ HTML, CSS, JavaScript وكل حاجة متعلقة بالفرونت.</p>
+                        <a href="https://www.youtube.com/@ElzeroWebSchool" target="_blank" rel="noopener" class="btn btn-primary">روح للقناة</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>freeCodeCamp — Responsive Web Design + JS</h3>
+                        <p class="instructor">freeCodeCamp.org</p>
+                        <p>مسار تفاعلي مجاني كامل مع شهادات. ممتاز جدًا للمبتدئين ويبني مشاريع حقيقية.</p>
+                        <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener" class="btn btn-primary">ابدأ الآن</a>
+                    </div>
+                </div>
+
+                <h3 style="margin-bottom: 16px; font-size: 1.15rem;">Backend / Full-Stack (JavaScript)</h3>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>Node.js & Express بالعربي</h3>
+                        <p class="instructor">يحيى تك / أو قنوات مشابهة عالية الجودة</p>
+                        <p>ابحث عن أحدث كورس Node.js عربي عالي المشاهدات بعد ما تخلص الأساسيات.</p>
+                        <a href="https://www.youtube.com/results?search_query=node.js+express+بالعربي" target="_blank" rel="noopener" class="btn btn-secondary">ابحث على يوتيوب</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>The Complete Node.js Developer</h3>
+                        <p class="instructor">Andrew Mead / freeCodeCamp</p>
+                        <p>كورسات freeCodeCamp أو Andrew Mead من الأقوى في الـ Node.js والـ Full-Stack.</p>
+                        <a href="https://www.youtube.com/c/Freecodecamp" target="_blank" rel="noopener" class="btn btn-primary">freeCodeCamp</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI / Data -->
+            <div class="roadmap-section" id="ai" style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border);">
+                <h2>🤖 الذكاء الاصطناعي وعلوم البيانات</h2>
+                <p class="desc">الأعلى طلبًا ورواتب حاليًا، خاصة في الخليج. محتاج أساس قوي في Python والرياضيات.</p>
+                
+                <div class="skills-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">NumPy / Pandas</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Deep Learning</span>
+                    <span class="skill-tag">Statistics</span>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>Python للمبتدئين + Data</h3>
+                        <p class="instructor">Codezilla / عبدالرحمن جمال</p>
+                        <p>ابدأ بكورس Python قوي بالعربي، وبعدين انتقل لكورسات الـ Data Science العربية المتاحة.</p>
+                        <a href="https://www.youtube.com/@Codezilla" target="_blank" rel="noopener" class="btn btn-primary">Codezilla</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>Machine Learning — Andrew Ng</h3>
+                        <p class="instructor">Stanford / Coursera</p>
+                        <p>أشهر كورس ML في العالم. بعده تقدر تكمل بـ Deep Learning Specialization لنفس المدرس.</p>
+                        <a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener" class="btn btn-primary">ابدأ على Coursera</a>
+                    </div>
+                </div>
+
+                <div class="info-box tip" style="margin-top: 24px;">
+                    <h4>نصيحة</h4>
+                    <p>بعد Andrew Ng، كورس <strong>fast.ai</strong> عملي جدًا وسريع. وكمان freeCodeCamp عندهم كورسات Data Science كاملة.</p>
+                </div>
+            </div>
+
+            <!-- Mobile -->
+            <div class="roadmap-section" id="mobile" style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border);">
+                <h2>📱 تطبيقات الموبايل</h2>
+                <p class="desc">Flutter هو المسيطر حاليًا في السوق العربي. تتعلم لغة واحدة وتبني لـ Android و iOS.</p>
+                
+                <div class="skills-list">
+                    <span class="skill-tag">Dart</span>
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">State Management</span>
+                    <span class="skill-tag">API Integration</span>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>Flutter بالعربي</h3>
+                        <p class="instructor">قنوات عربية متخصصة (ابحث عن أعلى مشاهدة حديثة)</p>
+                        <p>في شروحات عربية ممتازة لـ Flutter. اختار أحدث كورس كامل عالي التقييم.</p>
+                        <a href="https://www.youtube.com/results?search_query=flutter+بالعربي+كورس+كامل" target="_blank" rel="noopener" class="btn btn-secondary">ابحث على يوتيوب</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>Flutter & Dart — The Complete Guide</h3>
+                        <p class="instructor">Maximilian Schwarzmüller / Official Docs</p>
+                        <p>من أقوى الكورسات. وكمان التوثيق الرسمي لـ Flutter ممتاز جدًا.</p>
+                        <a href="https://docs.flutter.dev/learn" target="_blank" rel="noopener" class="btn btn-primary">Flutter Docs</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cybersecurity -->
+            <div class="roadmap-section" id="security" style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border);">
+                <h2>🔒 الأمن السيبراني</h2>
+                <p class="desc">طلب متزايد جدًا. محتاج فهم كويس للشبكات والـ Linux وأساسيات البرمجة.</p>
+                
+                <div class="skills-list">
+                    <span class="skill-tag">Networking</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Penetration Testing</span>
+                    <span class="skill-tag">Web Security</span>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>أساسيات الأمن السيبراني بالعربي</h3>
+                        <p class="instructor">غريب الشيخ وغيره</p>
+                        <p>في فيديوهات وخرائط طريق عربية كويسة. ابدأ بفهم الشبكات والـ Linux.</p>
+                        <a href="https://www.youtube.com/results?search_query=أمن+سيبراني+بالعربي+roadmap" target="_blank" rel="noopener" class="btn btn-secondary">ابحث على يوتيوب</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>TryHackMe + HackTheBox</h3>
+                        <p class="instructor">منصات تفاعلية</p>
+                        <p>أفضل طريقة تتعلم بيها عمليًا. TryHackMe ممتاز للمبتدئين جدًا.</p>
+                        <a href="https://tryhackme.com" target="_blank" rel="noopener" class="btn btn-primary">TryHackMe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Python Backend -->
+            <div class="roadmap-section" id="python" style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border);">
+                <h2>🐍 Python Backend / Django</h2>
+                <p class="desc">لو عايز Backend قوي أو تدخل في الـ AI بعدين، Python اختيار ممتاز.</p>
+                
+                <div class="skills-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Django / FastAPI</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <span class="course-lang ar">عربي</span>
+                        <h3>Python + Django بالعربي</h3>
+                        <p class="instructor">Codezilla / قنوات أخرى</p>
+                        <p>كورسات Python كاملة بالعربي متوفرة بجودة عالية، وبعدين Django.</p>
+                        <a href="https://www.youtube.com/@Codezilla" target="_blank" rel="noopener" class="btn btn-primary">Codezilla</a>
+                    </div>
+                    <div class="course-card">
+                        <span class="course-lang en">English</span>
+                        <h3>Python Django Tutorial</h3>
+                        <p class="instructor">Corey Schafer / freeCodeCamp</p>
+                        <p>Corey Schafer من أفضل اللي بيشرحوا Python وDjango على يوتيوب.</p>
+                        <a href="https://www.youtube.com/@coreyms" target="_blank" rel="noopener" class="btn btn-primary">Corey Schafer</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-box warning" style="margin-top: 50px;">
+                <h4>⚠️ تذكير مهم</h4>
+                <p>
+                    الكورس لوحده مش كفاية. لازم تعمل <strong>مشاريع</strong>، ترفعها على GitHub، 
+                    وتبني Portfolio. ده اللي بيفرق في التوظيف مش الشهادات بس.
+                </p>
+            </div>
+
+            <div class="center-btn" style="margin-top: 40px;">
+                <a href="tips.html" class="btn btn-primary btn-lg">نصائح مهمة قبل ما تبدأ ←</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&lt;/&gt;</span>
+                        <span>Programmers Guide</span>
+                    </a>
+                    <p>دليلك الواضح لتعلم البرمجة بدون تشتيت.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="basics.html">الأساسيات</a></li>
+                        <li><a href="market.html">سوق العمل</a></li>
+                        <li><a href="roadmaps.html">خرائط الطريق</a></li>
+                        <li><a href="tips.html">نصائح مهمة</a></li>
+                    </ul>
+                </div>
+                <div class="footer-note">
+                    <h4>ملاحظة</h4>
+                    <p>الموقع بيتحدث باستمرار حسب تغيرات سوق العمل وأفضل الكورسات.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Programmers Guide — صُنع بحب للمبتدئين العرب</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

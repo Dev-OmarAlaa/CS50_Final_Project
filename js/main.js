@@ -43,23 +43,6 @@ checkboxes.forEach(checkbox => {
     });
 });
 
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        const targetId = this.getAttribute('href');
-        if (targetId === '#') return;
-
-        const target = document.querySelector(targetId);
-        if (target) {
-            e.preventDefault();
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    });
-});
-
 // Active nav link highlighting based on current page
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 document.querySelectorAll('.nav-links a').forEach(link => {

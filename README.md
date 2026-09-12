@@ -19,7 +19,6 @@ The project aims to reduce confusion by providing a clear path:
 * **CSS3** — Styling and responsive design
 * **JavaScript** — Interactivity and dynamic behavior
 * **Git & GitHub** — Version control
-* **GitHub Pages** — Deployment
 
 ## 📁 Project Structure
 
@@ -36,10 +35,6 @@ CS50_Final_Project/
 │   └── main.js
 └── README.md
 ```
-
-## 🌐 Live Demo
-
-[Programmers Guide](https://dev-omaralaa.github.io/CS50_Final_Project/)
 
 ## 🎓 CS50 Final Project
 
